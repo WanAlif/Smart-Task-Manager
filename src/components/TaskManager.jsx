@@ -5,7 +5,7 @@ const TaskManager = () => {
   const [tasks, setTasks] = useState([
     { id: 1, title: 'Finishing task manager', description: 'create and publish', priority: 'high', category: 'work', completed: false, dueDate: '2025-06-25', createdAt: new Date('2025-06-20') },
     { id: 2, title: 'Watch Naruto', description: 'Madara is the goat', priority: 'medium', category: 'personal', completed: false, dueDate: '2025-06-22', createdAt: new Date('2025-06-21') },
-    { id: 3, title: 'Play Valo', description: 'with friends', priority: 'high', category: 'health', completed: true, dueDate: '2025-06-21', createdAt: new Date('2025-06-19') }
+    { id: 3, title: 'Play Valorant', description: 'with friends', priority: 'high', category: 'health', completed: true, dueDate: '2025-06-21', createdAt: new Date('2025-06-19') }
   ]);
   
   const [newTask, setNewTask] = useState({ title: '', description: '', priority: 'medium', category: 'personal', dueDate: '' });
